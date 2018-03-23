@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tvCard"
+        android:background="@color/colorPrimary"
+        android:text="5"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:transitionName="card"
+        android:textSize="48dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvTitle"
+        android:text="Normal"
+        android:textSize="24dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"/>
+
+</LinearLayout>
